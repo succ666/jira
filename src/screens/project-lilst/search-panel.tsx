@@ -3,7 +3,11 @@ import React from "react";
 export type Param = { name: string, personId: string}
 export type User = {
     id: number,
-    name: string
+    name: string,
+    email: string,
+    title: string,
+    organization: string;
+    token: string;
 }
 interface props {
     users: User[],
