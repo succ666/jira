@@ -1,5 +1,5 @@
 import React, {FormEvent} from "react";
-import {useAuth} from "../../context/auth-context";
+import {useAuth} from "../auth-context";
 
 const apiUrl = process.env.REACT_APP_API_URL
 export const LoginScreen = () => {
@@ -11,9 +11,6 @@ export const LoginScreen = () => {
         login({username, password})
     }
     return <form onSubmit={handleSubmit}>
-        {
-            user ? <div> 登录成功，用户名：{user?.name}<br/> token:{user?.token}</div> : null
-        }
         <div>
             <label htmlFor="username">用户名</label>
             <input type="text" id={"username"}/>
