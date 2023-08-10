@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434b031b-bd66-47ba-a05d-389604fffcd4" name="Changes" comment="添加全局状态">
-      <change afterPath="$PROJECT_DIR$/src/authenticated-app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unauthenticated-app/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unauthenticated-app/login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unauthenticated-app/register.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/http.ts" afterDir="false" />
+    <list default="true" id="434b031b-bd66-47ba-a05d-389604fffcd4" name="Changes" comment="添加登录状态维持">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/auth-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth-context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/login/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authenticated-app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticated-app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/project-lilst/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/project-lilst/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/project-lilst/list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/project-lilst/list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/project-lilst/search-panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/project-lilst/search-panel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unauthenticated-app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/unauthenticated-app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unauthenticated-app/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/unauthenticated-app/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unauthenticated-app/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/unauthenticated-app/register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,8 @@
       <updated>1691391944206</updated>
       <workItem from="1691391945208" duration="10496000" />
       <workItem from="1691458057732" duration="10686000" />
-      <workItem from="1691478119085" duration="7914000" />
+      <workItem from="1691478119085" duration="8675000" />
+      <workItem from="1691653600538" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1691392044663</created>
@@ -151,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691483019791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加登录状态维持">
+      <created>1691487114347</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487114347</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +181,7 @@
     <MESSAGE value="增加dev-tool" />
     <MESSAGE value="修改配置" />
     <MESSAGE value="添加全局状态" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加全局状态" />
+    <MESSAGE value="添加登录状态维持" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加登录状态维持" />
   </component>
 </project>

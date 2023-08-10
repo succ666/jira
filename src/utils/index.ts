@@ -14,6 +14,7 @@ export const cleanObject = (object: any) => {
 export const useMount = (callback: any) => {
     useEffect( () => {
         callback()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 }
 
