@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434b031b-bd66-47ba-a05d-389604fffcd4" name="Changes" comment="美化登录页面">
+    <list default="true" id="434b031b-bd66-47ba-a05d-389604fffcd4" name="Changes" comment="优化样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/authenticated-app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticated-app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/project-lilst/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/project-lilst/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/project-lilst/list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/project-lilst/list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/project-lilst/search-panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/project-lilst/search-panel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,8 @@
       <workItem from="1691653600538" duration="6357000" />
       <workItem from="1691973065892" duration="1600000" />
       <workItem from="1692067892975" duration="199000" />
-      <workItem from="1692068249752" duration="1689000" />
+      <workItem from="1692068249752" duration="3463000" />
+      <workItem from="1692321648518" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1691392044663</created>
@@ -168,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691660022009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="优化样式">
+      <created>1692070043391</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692070043391</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +204,7 @@
     <MESSAGE value="添加登录状态维持" />
     <MESSAGE value="引入antd优化样式" />
     <MESSAGE value="美化登录页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="美化登录页面" />
+    <MESSAGE value="优化样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化样式" />
   </component>
 </project>
